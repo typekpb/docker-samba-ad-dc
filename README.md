@@ -97,7 +97,7 @@ I used [JXplorer](http://jxplorer.org/) to explore the LDAP-schema. To log in yo
 For an example on how to use Samba as LDAP server with Alfresco, see the provided docker-compose file:
 
 ```
-cd compose && \
+cd samples/alfresco && \
 docker-compose build && \
 docker-compose up
 ```

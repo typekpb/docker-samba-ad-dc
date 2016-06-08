@@ -41,7 +41,7 @@ services:
 
   samba:
     build: 
-      context: ./..
+      context: ./../..
       dockerfile: Dockerfile
     # Ports not needed because we link the containers
     #ports:
